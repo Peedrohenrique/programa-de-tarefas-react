@@ -8,7 +8,10 @@ const AddTask = () => {
     return(
         <div className="add-task-container">
             <input className="add-task-input" type="text" />
-            <Button className="">Adicionar</Button>
+            <div className="add-task-button-container">
+
+            <Button>Adicionar</Button>
+            </div>
         </div>
     );   
 }
